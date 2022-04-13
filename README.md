@@ -26,6 +26,15 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Setup your 42 app
+
+In order to use the 42 API, you first need to create a "v2" application [here](https://profile.intra.42.fr/oauth/applications/new).
+
+you'll be asked to provide a REDIRECT URI, and it's the URI to where you will be redirected after the login is successfull.
+you can simply use: http://127.0.0.1:3000/auth/redirect
+
+after you've created you app, add you UID and SECRET to .env which you'll need to create using .env.sample
+
 ## Installation
 
 ```bash
@@ -44,30 +53,3 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
