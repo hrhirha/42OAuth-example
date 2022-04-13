@@ -30,7 +30,8 @@
 
 In order to use the 42 API, you first need to create a "v2" application [here](https://profile.intra.42.fr/oauth/applications/new).
 
-you'll be asked to provide a REDIRECT URI, and it's the URI to where you will be redirected after the login is successfull.
+you'll be asked to provide a REDIRECT URI, and it's the URI to where you will be redirected after the login is successful.
+
 you can simply use: http://127.0.0.1:3000/auth/redirect
 
 after you've created you app, add you UID and SECRET to .env which you'll need to create using .env.sample
