@@ -34,7 +34,7 @@ you'll be asked to provide a REDIRECT URI, and it's the URI to where you will be
 
 you can simply use: http://127.0.0.1:3000/auth/redirect
 
-after you've created you app, add you UID and SECRET to .env which you'll need to create using .env.sample
+after you've created your app, add you UID and SECRET to .env which you'll need to create using .env.sample
 
 ## Installation
 
